@@ -1,0 +1,36 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "quotes": [2, "single", { "avoidEscape": true }],
+        "import/no-unresolved": 0,
+        "no-console": 1,
+        "no-shadow": 1,
+        "import/prefer-default-export": 0,
+        "arrow-parens": 0,
+        "implicit-arrow-linebreak": 0,
+        "linebreak-style": [0, "error", "windows"],
+        "react/display-name": 0,
+        "yoda": 1,
+        "react/prop-types": 0,
+        "prettier/prettier": ["error", {
+            "endOfLine":"auto"
+        }]
+    },
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    }
+}

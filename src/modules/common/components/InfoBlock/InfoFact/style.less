@@ -1,0 +1,30 @@
+@import (reference) '~style/vars.less';
+
+.info-fact {
+  padding: 24px 12px 24px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.info-fact__header {
+  color: @c-gray-dark;
+  font-size: 14px;
+}
+
+@media (min-width: 0) {
+  .info-fact {
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) {
+  .info-fact {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .info-fact {
+    width: 33.33333333%;
+  }
+}

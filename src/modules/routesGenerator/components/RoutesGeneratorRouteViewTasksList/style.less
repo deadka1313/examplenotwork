@@ -1,0 +1,91 @@
+.routes-generator-route-view-tasks-list {
+  width: 99.9%;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 12px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &_wrapper {
+    background: white;
+    padding: 16px;
+  }
+
+  &_info-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 24px;
+    margin-left: 10px;
+    color: #bfbfbf;
+    &:last-child {
+      margin-top: 20px;
+    }
+    & b {
+      color: #595959;
+      margin-right: 5px;
+    }
+    & svg {
+      margin-right: 12px;
+    }
+  }
+
+  &_info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+  }
+
+  &_sizes {
+    font-size: 14px;
+    line-height: 20px;
+    color: #8c8c8c;
+  }
+
+  &_delivery-type {
+    font-size: 12px;
+    line-height: 18px;
+    color: #bfbfbf;
+  }
+
+  &_date {
+    font-size: 12px;
+    line-height: 18px;
+    color: #8c8c8c;
+    margin-bottom: 4px;
+  }
+
+  &_address {
+    font-size: 14px;
+    line-height: 20px;
+    color: #595959;
+    margin-bottom: 4px;
+  }
+
+  &_number {
+    font-size: 12px;
+    line-height: 18px;
+    color: #8c8c8c;
+    &__warning {
+      color: #faad14;
+    }
+  }
+
+  &_right {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &_remove-icon {
+    color: #bfbfbf;
+    margin-left: 19px;
+    cursor: pointer;
+    &:hover {
+      color: #00a658;
+      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+  }
+}

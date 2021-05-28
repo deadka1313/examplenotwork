@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "checkJs": false,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "keyofStringsOnly": true,
+    "lib": ["es2016", "es2017", "es2018", "dom"],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "build",
+    "sourceMap": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types",
+      "custom.d.ts"
+    ],
+    "experimentalDecorators": true,
+    "paths": {
+      "modules/*": ["src/modules/*"],
+      "helpers/*": ["src/helpers/*"],
+      "constants/*": ["src/constants/*"],
+      "img/*": ["src/img/*"],
+      "api/*": ["src/api/*"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "custom.d.ts"
+  ],
+  "exclude": ["node_modules", "build"]
+}
